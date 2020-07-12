@@ -1,9 +1,11 @@
 class Dog 
   @@all = []
+  @@all_names = []
   attr_accessor :name 
   
   def initialize(name)
-    @name = name 
+    @name = name
+    @@all_names << name
     save
   end 
   
@@ -12,7 +14,7 @@ class Dog
   end 
   
   def self.print_all
-    @@all.each do |puppy|
+    @@all_names.each do |puppy|
       puts "#{puppy}"
     end 
   end 
