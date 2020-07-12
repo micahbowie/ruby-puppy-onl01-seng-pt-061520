@@ -14,7 +14,8 @@ class Dog
   end 
   
   def self.print_all
-    @@all_names.each do |puppy|
+    unique = @@all_names.uniq
+    unique.each do |puppy|
       puts "#{puppy}"
     end 
   end 
