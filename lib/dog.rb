@@ -16,4 +16,9 @@ class Dog
       puts "#{puppy}"
     end 
   end 
+  
+  def self.clear_all
+    
+  end 
+    
 end 
