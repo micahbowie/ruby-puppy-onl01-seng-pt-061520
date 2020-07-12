@@ -13,7 +13,7 @@ class Dog
   
   def self.print_all
     @@all.each do |puppy|
-      puts "#{puppy}\n#{puppy}\n#{puppy}\n"
+      puts "#{puppy}"
     end 
   end 
 end 
