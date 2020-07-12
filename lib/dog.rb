@@ -1,4 +1,4 @@
-class Puppy
+class Dog 
   @@all = []
   attr_accessor :name 
   
